@@ -279,13 +279,7 @@ public protocol NavigationCoordinatable: Coordinatable {
     ) -> Output?
 }
 
-public extension NavigationCoordinatable {
-    var routerStorable: Self {
-        get {
-            self
-        }
-    }
-    
+public extension NavigationCoordinatable {    
     weak var parent: ChildDismissable? {
         get {
             return stack.parent

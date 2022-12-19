@@ -9,7 +9,7 @@ public final class NavigationRouter<T>: Routable {
     
     private var _coordinator: WeakRef<AnyObject>
     
-    public init(id: Int, coordinator: T) {
+    public init(id: Int, coordinator: T?) {
         self.id = id
         self._coordinator = WeakRef(value: coordinator as AnyObject)
     }

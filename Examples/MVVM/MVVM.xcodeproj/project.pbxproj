@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		880111262950BD0900E1D33D /* Stinsen in Frameworks */ = {isa = PBXBuildFile; productRef = 880111252950BD0900E1D33D /* Stinsen */; };
 		EBE631EC272AA38600E18E9C /* MVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE631DC272AA38500E18E9C /* MVVMApp.swift */; };
 		EBE631ED272AA38600E18E9C /* MVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE631DC272AA38500E18E9C /* MVVMApp.swift */; };
 		EBE631F0272AA38600E18E9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE631DE272AA38600E18E9C /* Assets.xcassets */; };
@@ -68,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				880111262950BD0900E1D33D /* Stinsen in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +247,7 @@
 			);
 			name = "MVVM (iOS)";
 			packageProductDependencies = (
+				880111252950BD0900E1D33D /* Stinsen */,
 			);
 			productName = "MVVM (iOS)";
 			productReference = EBE631E3272AA38600E18E9C /* MVVM.app */;
@@ -716,6 +719,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		880111252950BD0900E1D33D /* Stinsen */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Stinsen;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EBE631D7272AA38400E18E9C /* Project object */;
 }

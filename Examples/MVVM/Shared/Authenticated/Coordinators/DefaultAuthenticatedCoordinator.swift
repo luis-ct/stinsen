@@ -12,7 +12,9 @@ import Stinsen
 final class DefaultAuthenticatedCoordinator: AuthenticatedCoordinator, NavigationCoordinatable {
     var stack = NavigationStack(initial: \DefaultAuthenticatedCoordinator.start)
     @Root var start = makeStart
-    
+
+    lazy var routerStorable: DefaultAuthenticatedCoordinator = self
+
     func makeStart() -> some View {
         AuthenticatedView()
     }
